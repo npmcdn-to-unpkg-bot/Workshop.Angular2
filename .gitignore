@@ -234,3 +234,13 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+
+#winmerge
+*.bak
+
+# dependencies
+/node_modules
+
+#ts build
+**/App/*.js
+**/App/*.js.map
